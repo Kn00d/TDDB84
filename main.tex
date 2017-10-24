@@ -1,7 +1,8 @@
 \documentclass[journal]{IEEEtran}
+\usepackage{graphicx}
 \begin{document}
 
-\title{Observer Pattern in FreeCol}
+\title{ How the observer Pattern in FreeCol affect extendability and usability as measured by NOP}
 
 \author{Karl Fredrik Gudjonsson\\
         Link\"{o}pings University, Sweden\\
@@ -16,7 +17,7 @@ The abstract goes here. This paper research if the implementation of the Observe
 \end{abstract}
 
 \begin{IEEEkeywords}
-Design patterns; FreeCol; JAVA; NOP;\\ Observer Pattern 
+Design patterns; FreeCol; JAVA; NOP;\\ Observer Pattern
 \end{IEEEkeywords}
 \IEEEpeerreviewmaketitle
 \section{Introduction}
@@ -33,14 +34,19 @@ As of yet there are no concrete evidence for this, and this subject needs furthe
 In this paper the aim is to answer the following question:
 \\
 \\
-How does the implementation of observer patters in FreeCol affect the maintainability/extendability as measured by NOP (number of polymorphic methods)?
+How does the implementation of observer patters in FreeCol affect the maintainability and extendability as measured by NOP (number of polymorphic methods)?
 
 \section{Theory}
 \subsection{Design Patterns}
 Design patterns are a way of structuring code to solve reoccurring problems when designing software. A design pattern is not a final design that can be copied straight into the source code. It is more of a description for how to solve a problem. \cite{Usefulnessofdesign}
- 
+
 \subsection{The Observer Pattern}
 The observer pattern goes under the category of behavioral patterns, with the intet to: "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically." \cite{gof}
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{Observer.png}
+\label{obeserver}
+\caption{UML-diagram of the Observer pattern \cite{observerpng}}
+\end{figure}
 
 The problem we want to solve by using the observer pattern is to contain consistency between objects that all depend on the same data. The observer pattern consists of one subject class containing a state which is of interest of different observer classes, and notifies the observer when there are changes made.
 
@@ -63,5 +69,3 @@ The conclusion goes here.
 
 
 \end{document}
-
-

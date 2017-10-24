@@ -37,9 +37,15 @@ E.~Gamma, R.~Helm, R.~Johnson, and J.~Vlissides, \emph{Design patterns:
   elements of reusable object-oriented software}.\hskip 1em plus 0.5em minus
   0.4em\relax Pearson Education, 1994.
 
+\bibitem{observerpng}
+\BIBentryALTinterwordspacing
+``Uml class diagram of observer pattern: Observer.svg.'' [Online]. Available:
+  \url{https://en.wikipedia.org/wiki/Observer_pattern#/media/File:Observer.svg}
+\BIBentrySTDinterwordspacing
+
 \bibitem{freecol}
 \BIBentryALTinterwordspacing
-Freecol. [Online]. Available: \url{http://www.freecol.org/about.html}
+``Freecol.'' [Online]. Available: \url{http://www.freecol.org/about.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{qualityassessment}

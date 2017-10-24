@@ -19,45 +19,45 @@ Name 2 in "L. Prechelt, B. Unger-Lamprecht, M. Philippsen, and W.F. Tichy," has 
 while executing---line 2403 of file IEEEtran.bst
 
 Done.
-You've used 5 entries,
+You've used 6 entries,
             4087 wiz_defined-function locations,
-            849 strings with 8024 characters,
-and the built_in function-call counts, 3431 in all, are:
-= -- 275
-> -- 67
+            852 strings with 8157 characters,
+and the built_in function-call counts, 3725 in all, are:
+= -- 292
+> -- 68
 < -- 31
-+ -- 38
++ -- 39
 - -- 10
-* -- 169
-:= -- 535
-add.period$ -- 9
-call.type$ -- 5
-change.case$ -- 4
+* -- 182
+:= -- 581
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 5
 chr.to.int$ -- 66
-cite$ -- 5
-duplicate$ -- 240
-empty$ -- 266
+cite$ -- 6
+duplicate$ -- 270
+empty$ -- 301
 format.name$ -- 14
-if$ -- 780
+if$ -- 844
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 41
-newline$ -- 40
+int.to.str$ -- 6
+missing$ -- 47
+newline$ -- 45
 num.names$ -- 4
-pop$ -- 95
+pop$ -- 119
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 265
+skip$ -- 286
 stack$ -- 0
-substring$ -- 156
-swap$ -- 198
+substring$ -- 158
+swap$ -- 210
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
+type$ -- 6
 warning$ -- 0
 while$ -- 15
-width$ -- 6
-write$ -- 70
+width$ -- 7
+write$ -- 78
 (There were 3 error messages)
